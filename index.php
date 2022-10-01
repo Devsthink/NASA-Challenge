@@ -1,3 +1,10 @@
+<?php 
+  // It start and destroy the session if there's any opened
+  error_reporting(0);
+  session_start();
+  session_destroy();
+?>
+
 <!DOCTYPE html>
 <html style="font-size: 16px;" lang="en"><head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -66,7 +73,8 @@
                         the robotic lander will study Mars' deep interior using seismology and other geophysical measurements. <br>
               <br>The Roadshow brings family-friendly science activities, exhibits and public talks to communities throughout California, making comparisons between earthquakes and the marsquakes that InSight will try to detect.&nbsp;
             </p>
-            <a href="https://mars.nasa.gov/insight/news/2018/nasa-mars-mission-tours-california" class="u-btn u-button-style u-btn-1">more about mission</a>
+            <!-- Here is were the magic beagins -->
+            <a href="/" class="u-btn u-button-style u-btn-1">Accion</a>
           </div>
         </div>
         <div class="u-border-2 u-border-palette-3-base u-hidden-md u-hidden-sm u-hidden-xs u-line u-line-horizontal u-line-1"></div>
