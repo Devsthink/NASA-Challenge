@@ -74,7 +74,7 @@
               <br>The Roadshow brings family-friendly science activities, exhibits and public talks to communities throughout California, making comparisons between earthquakes and the marsquakes that InSight will try to detect.&nbsp;
             </p>
             <!-- Here is were the magic beagins -->
-            <a href="/" class="u-btn u-button-style u-btn-1">Accion</a>
+            <a href="./fanzine_part1.php" class="u-btn u-button-style u-btn-1">Accion</a>
           </div>
         </div>
         <div class="u-border-2 u-border-palette-3-base u-hidden-md u-hidden-sm u-hidden-xs u-line u-line-horizontal u-line-1"></div>
