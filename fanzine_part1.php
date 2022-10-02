@@ -1,7 +1,6 @@
 <?php
     session_start();
-    $value = 0;
-    $_SESSION['newsession'] = $value;
+    $_SESSION['newsession'] = 0;
 ?>
 
 <!DOCTYPE html>
@@ -18,8 +17,8 @@
         <br><br>
         <h2>Choose one subject above</h2>
         <br>
-        <form action="./fanzine_part1.php" method="get">
-            <!-- it gona make the selecction -->
+        <form action="./fanzine_part2.php" method="get">
+            <!-- it gona make the selection -->
             <input type="radio" name="subject" id="1" value="sub1">
             <label for="sub1"> Theme 1 </label> <br>
             <input type="radio" name="subject" id="2" value="sub2">
@@ -36,17 +35,3 @@
 </body>
 </html>
 
-<?php
-    if(isset($_GET['send']) && $_GET['send']){
-        // Verifica si se presiono enviar y se selecciono una materia
-        if(isset($_GET['subject'])){
-            $_SESSION['newsession'] = $_GET['subject'];
-            // after of get the theme or subject, it opens a new page for the next step
-        }else{
-            echo "<center> 
-                    <br><br>
-                    You need to choose one subject above
-                    </center>";
-        }
-    }
-?>
