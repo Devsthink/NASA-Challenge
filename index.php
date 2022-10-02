@@ -174,8 +174,8 @@
             throughout California, making comparisons between earthquakes and the marsquakes that InSight will try to
             detect.&nbsp;
           </p>
-          <a href="https://mars.nasa.gov/insight/news/2018/nasa-mars-mission-tours-california"
-            class="u-btn u-button-style u-btn-1">more about mission</a>
+          <a href="./paso1.html"
+            class="u-btn u-button-style u-btn-1">Call to action</a>
         </div>
       </div>
       <div
